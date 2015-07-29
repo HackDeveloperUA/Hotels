@@ -81,13 +81,9 @@
 		6C0E81131B68DDF400697879 /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
-				6C0E81181B68DDF400697879 /* AppDelegate.h */,
-				6C0E81191B68DDF400697879 /* AppDelegate.m */,
 				6C0E811B1B68DDF400697879 /* ViewController.h */,
 				6C0E811C1B68DDF400697879 /* ViewController.m */,
 				6C0E811E1B68DDF400697879 /* Main.storyboard */,
-				6C0E81211B68DDF400697879 /* Images.xcassets */,
-				6C0E81231B68DDF400697879 /* LaunchScreen.xib */,
 				6C0E81141B68DDF400697879 /* Supporting Files */,
 			);
 			path = Hotels;
@@ -96,6 +92,10 @@
 		6C0E81141B68DDF400697879 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C0E81181B68DDF400697879 /* AppDelegate.h */,
+				6C0E81191B68DDF400697879 /* AppDelegate.m */,
+				6C0E81211B68DDF400697879 /* Images.xcassets */,
+				6C0E81231B68DDF400697879 /* LaunchScreen.xib */,
 				6C0E81151B68DDF400697879 /* Info.plist */,
 				6C0E81161B68DDF400697879 /* main.m */,
 			);
@@ -350,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hotels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hotels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
